@@ -7,3 +7,14 @@ Summary:
 #include <iostream>
 #include <string>
 using namespace std;
+
+class GreenTea {
+  private:
+    bool delicious;
+    string nameTea;
+  public:
+    void setDelicious(bool);
+    bool getDelicious();
+    void setNameTea(string);
+    string getNameTea();
+};
