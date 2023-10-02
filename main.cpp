@@ -34,3 +34,21 @@ void GreenTea::setNameTea(string nt) {
 string GreenTea::getNameTea() {
   return nameTea;
 }
+
+class Student {
+  private:
+    string name;
+    int id;
+    char letterGrade;
+    GreenTea preference;
+  public:
+    void setName(string);
+    void setId(int);
+    void setLetterGrade(char);
+    void setPreference(GreenTea);
+    string getName();
+    int getId();
+    char getLetterGrade();
+    GreenTea getPreference();
+    void printTranscript();
+};
