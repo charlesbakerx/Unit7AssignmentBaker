@@ -18,3 +18,19 @@ class GreenTea {
     void setNameTea(string);
     string getNameTea();
 };
+
+void GreenTea::setDelicious(bool d) {
+  delicious = d;
+}
+
+bool GreenTea::getDelicious() {
+  return delicious;
+}
+
+void GreenTea::setNameTea(string nt) {
+  nameTea = nt;
+}
+
+string GreenTea::getNameTea() {
+  return nameTea;
+}
